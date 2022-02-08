@@ -1,0 +1,88 @@
+<body>
+  <h1 id="title">Stock Market Survey Form</h1>
+  <p id="description">Thank you for sharing your thoughts about Stocks with us.</p>
+  
+  <div id="container">
+    <form id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input class="input" type="text" id="name" name="name" placeholder="Johnny Appleseed" required>
+      
+      <label for="email" id="email-label">Email</label>
+      <input class="input" type="email" id="email" name="email" placeholder="example@gmail.com" required>
+      
+      <label for="number" id="number-label">Age(optional)</label>
+      <input class="input" type="number" id="number" name="age" min="1" max="99" placeholder="Age">
+      
+      <label for="dropdown">Choose your favorite Stock to invest in:</label>
+      <select id="dropdown" name="blockchains" required>
+        <option disable selected>Choose a Stock</option>
+        <option value="alphabet googl">Alphabet (APPL)</option>
+        <option value= "amazon amzn">Amazon (AMZN)</option>
+        <option value="apple appl">Apple (APPL)</option>
+        <option value= "disney dis">Disney (DIS)</option>
+        <option value= "meta fb">Meta (FB) </option>
+        <option value= "microsoft msft">Microsoft (MSFT)</option>
+        <option value= "netflix nflx">Netflix (NFLX)</option>
+      </select>
+      <label for="others">Others:</label><br>
+      <input type="text" name="others"
+             <textarea id="others" placeholder="If others, please specify"</textarea>
+     <fieldset>
+       <legend id="p">Select your favorite Stock Investing app:</legend>
+       <input type="radio" name="stock investing app" id="robinhood" value="robinhood">
+       <label for="robinhood">Robinhood</label><br>
+       <input type="radio" name="stock investing app" id="webull" value="webull">
+       <label for="webull">WeBull</label><br>
+       <input type="radio" name="stock investing app" id="m1 finance" value="m1 finance">
+       <label for="m1 finance">M1 Finance</label><br>
+       <input type="radio" name="stock investing app" id="e-trade" value="e-trade">
+       <label for="e-trade">E-Trade</label><br>
+       <input type="radio" name="stock investing app" id="acorns" value="acorns">
+       <label for="acorns">Acorns</label><br>
+       <input type="radio" name="stock investing app" id="public.com app" value="public.com app">
+       <label for="public.com app">Public.com App</label><br>
+       <input type="radio" name="stock investing app" id="stash" value="stash">
+       <label for="stash">Stash</label><br>
+       <input type="radio" name="stock investing app" id="others" value="others">
+       <label for="others">Others:</label><br> <input type="text" name="others" placeholder="If others, please specify"</label>
+       </fieldset>
+    
+    <fieldset>
+      <legend id="p">Select all the Stocks you invest in or have invested in:</legend>
+      <input type="checkbox" name="stocks invested in" id="adobe adbe" value="adobe adbe">
+      <label for="adobe adbe">Adobe (ADBE)</label><br>
+      <input type="checkbox" name="stocks invested in" id="amazon amzn" value="amazon amzn">
+      <label for="checkbox">Amazon (AMZN)</label><br>
+      <input type="checkbox" name="stocks invested in" id="apple appl" value="apple appl">
+      <label for="apple appl">Apple (APPL)</label><br>
+      <input type="checkbox" name="stocks invested in"  id="alphabet googl" value="alphabet googl">
+      <label for="alphabet googl">Alphabet (GOOGL)</label><br>
+      <input type="checkbox" name="stocks invested in" id="chevron cvx" value="chevron cvx">
+      <label for="chevron cvx">Chevron (CVX)</label><br>
+      <input type="checkbox" name="stocks invested in" id="coca cola ko" value="coca cola ko">
+      <label for="coca cola ko">Coca Cola (KO)</label><br>
+      <input type="checkbox" name="stocks invested in" id="coinbase coin" value="coinbase coin">
+      <label for="coinbase coin">Coinbase (COIN)</label><br>
+      <input type="checkbox" name="stocks invested in" id="disney dis" value="disney dis">
+      <label for="disney dis">Disney (DIS)</label><br>
+      <input type="checkbox" name="stocks invested in" id="meta fb" value="meta fb">
+      <label for="meta fb">Meta (FB)</label><br>
+      <input type="checkbox" name="stocks invested in" id="microsoft msft" value="microsoft msft">
+      <label for="microsoft msft">Microsoft (MSFT)</label><br>
+      <input type="checkbox" name="stocks invested in" id="netflix nflx" value="netflix nflx">
+      <label for="netflix nflx">Netflix (NFLX)</label><br>
+      <input type="checkbox" name="stocks invested in" id="snap snap" value="snap snap">
+      <label for="snap snap">Snap (SNAP)</label><br>
+      <input type="checkbox" name="stocks invested in" id="twitter twtr" value="twitter twtr">
+      <label for="twitter twtr">Twitter (TWTR)</label><br>
+      <label for="others">Others:</label> <input type="text" name="others" placeholder="If others, please specify"</label>
+    </fieldset>
+    
+    <label for="thoughts">What are your overall thoughts on the Stock Market?</label><br>
+    <textarea id="thoughts"></textarea>
+    <input type="submit" name="submit" id="submit"></form>
+  </div>
+
+  <footer><em><hr>Website built by Kyra Lee</em></footer>
+ 
+</body>
