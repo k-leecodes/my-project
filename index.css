@@ -1,0 +1,67 @@
+body {
+  background-color: #f0f8ff;
+}
+
+#title {
+  text-align: center;
+  padding: 10px;
+  background-color: #a0522d;
+   font-size: 35px;
+}
+
+#description {
+  text-align: center;
+  font-size: 20px;
+  color: #black;
+  font-style: italic;
+}
+
+#container {
+  background-color: #b0e06;
+  font-size: 19px;
+  width: 60%;
+  margin: auto;
+  border-radius:16px;
+  padding: 30px;
+  box-shadow: 0px 5px 10px;
+}
+
+@media (max-width:850px) {
+  #container {
+    width: auto;
+  }
+  body {
+    min-width: 450px;
+  }
+}
+.input, select {
+  width: 98%;
+  height: 2em;
+  margin-bottom: 22px;
+  font-size: 16px;
+  border-radius: 2px;
+  text-indent: 5px;
+}
+
+#label, #p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#thoughts {
+  min-width:99%;
+  max-width: 99%;
+  min-height: 99px;
+  font-size: 17px;
+}
+
+#submit {
+  width: 100%;
+  font-size: 30px;
+  background-color: #00ffff;
+  border: hidden;
+  border-radius: 3px;
+}
+#submit:hover{
+  background-color: #ffff00;
+}
